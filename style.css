@@ -2159,19 +2159,3 @@ footer {
     pointer-events: all;
   }
 
-
-
-
-
-
-
-
-
-
-  #Section-1 .container {
-    opacity: 0;
-  }
-
-  .container.animated {
-    opacity: 1;
-  }
