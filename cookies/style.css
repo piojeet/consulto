@@ -1,0 +1,43 @@
+.cookie-consent-modal{
+    height: 10rem;
+    width: 25rem;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    bottom: 2rem;
+    left: 0;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+}
+.cookie-consent-modal.active{
+    display: flex;
+}
+.content{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.content p {
+    font-size: .9rem;
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: .8em 1.5em;
+    width: 100px;
+    margin-right: 1em;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn.accept{
+    background-color: rgb(0, 185, 124);
+    color: #fff;
+}
