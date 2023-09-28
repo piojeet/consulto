@@ -245,7 +245,7 @@
     }
 
     #section-2 .containers {
-        padding-top: 22rem;
+        padding-top: 5rem;
     }
 
     #Section-1 .container .right-box {
@@ -642,6 +642,12 @@
 
     #section-2 .containers .left-box h2 {
         width: min-content;
+    }
+
+    .cookie-consent-modal {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
